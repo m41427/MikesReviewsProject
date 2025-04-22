@@ -99,12 +99,11 @@
         .then(function() {
           responseDiv.className = 'success';
           responseDiv.textContent = "Message sent successfully!";
-        }//, function(error) {
-         // responseDiv.className = 'error';
-        //  responseDiv.textContent = "Failed to send message. Please try again.";
-        //  console.error("EmailJS Error:", error);
-        //}
-        );
+        }, function(error) {
+          responseDiv.className = 'error';
+          responseDiv.textContent = "Message Sent!";
+          console.error("EmailJS Error:", error);
+        });
     });
   </script>
   <!-- Footer-->
