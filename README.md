@@ -1,0 +1,5 @@
+# MichaelProject
+ I began my project with two templates downloaded from startbootstrap, blog home and blog post (https://startbootstrap.com/template/blog-home and https://startbootstrap.com/template/blog-post), as well as a contact form template from codestitch (https://codestitch.app/app/dashboard/stitches/1388).
+ I then gathered my assets in a simple naming convention, combining pictures from the places' websites with my own pictures. I then adjusted the headers, footers, navigation controls, text formatting for cleaner looking lists, removed unneeded widgets, added click events for navigation and the contact form Javascript features, and added the header and footer from the main page for consistency.
+To simplify the navigation, I just copied index.html to index.html2 and changed the blog entries and navigation bar at the bottom to set the "2" to active. 
+Then I did my first blog post page, and once the formatting was cleaned up and navigation controls were all programmed, I copied the formatting to the remaining blog posts, for which I then changed the body details accordingly.
